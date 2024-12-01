@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LIB")(type "KiCad")(uri "${KIPRJMOD}/LIB.pretty")(options "")(descr ""))
+  (lib (name "DynamicSoaring")(type "KiCad")(uri "${KIPRJMOD}/LIB/DynamicSoaring.pretty")(options "")(descr ""))
+)

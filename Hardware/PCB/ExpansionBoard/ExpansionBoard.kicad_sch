@@ -1,0 +1,119 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "fb49e4b5-d7b7-45bf-8a57-314a3950416b")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 110.49 54.61) (xy 133.35 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14efde8a-4eb8-40ca-a6ec-0a8e8a8cf1b7")
+	)
+	(sheet
+		(at 73.66 46.99)
+		(size 36.83 35.56)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "85b5c51c-751a-48d0-aae0-5f2233899fe2")
+		(property "Sheetname" "Accelerometer.Sheet"
+			(at 73.66 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Accelerometer.kicad_sch"
+			(at 73.66 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SPI" bidirectional
+			(at 110.49 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5332d7d0-cebd-42f1-a3d2-a75281fda6a1")
+		)
+		(instances
+			(project "ExpansionBoard"
+				(path "/fb49e4b5-d7b7-45bf-8a57-314a3950416b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 133.35 46.99)
+		(size 38.1 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b397995c-3c7c-4e9b-9bca-59f452d034b9")
+		(property "Sheetname" "MCU Sheet"
+			(at 133.35 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 133.35 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SPI" bidirectional
+			(at 133.35 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bd1b8c65-56e7-4bc3-8136-1a2f770e66dd")
+		)
+		(instances
+			(project "ExpansionBoard"
+				(path "/fb49e4b5-d7b7-45bf-8a57-314a3950416b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

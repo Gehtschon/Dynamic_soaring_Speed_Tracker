@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "New_Library")(type "KiCad")(uri "${KIPRJMOD}/LIB/New_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "DynamicSoaring")(type "KiCad")(uri "${KIPRJMOD}/LIB/DynamicSoaring.kicad_sym")(options "")(descr ""))
+)
