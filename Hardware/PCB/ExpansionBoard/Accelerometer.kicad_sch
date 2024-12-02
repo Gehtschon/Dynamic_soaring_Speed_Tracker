@@ -726,6 +726,9 @@
 			)
 		)
 	)
+	(bus_alias "INT"
+		(members "INT_1" "INT_2")
+	)
 	(bus_alias "SPI"
 		(members "SCLK" "MOSI" "MISO" "~{CS}")
 	)
@@ -779,6 +782,24 @@
 			(type default)
 		)
 		(uuid "46c2eafe-b171-4d81-8fde-0af31db4e86c")
+	)
+	(bus_entry
+		(at 142.24 78.74)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64b7e005-7804-43fd-86ce-1dde2e7e0e92")
+	)
+	(bus_entry
+		(at 142.24 82.55)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d431c396-58b7-4acc-b08c-303725961249")
 	)
 	(bus_entry
 		(at 93.98 71.12)
@@ -839,6 +860,26 @@
 		)
 		(uuid "5e0abaf0-6646-459e-9b8f-b167c2f5b122")
 	)
+	(wire
+		(pts
+			(xy 134.62 80.01) (xy 139.7 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60d39819-5162-4057-99cc-dc49de119c3b")
+	)
+	(bus
+		(pts
+			(xy 142.24 74.93) (xy 142.24 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6565435f-4091-4bb1-ba1c-12b21c4f96cc")
+	)
 	(bus
 		(pts
 			(xy 72.39 68.58) (xy 93.98 68.58)
@@ -848,6 +889,16 @@
 			(type default)
 		)
 		(uuid "6c6745c5-a246-4170-96e3-e2e01415bfe8")
+	)
+	(bus
+		(pts
+			(xy 142.24 78.74) (xy 142.24 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71203dc1-b7da-4a0f-8a9d-b5990af097b5")
 	)
 	(wire
 		(pts
@@ -921,6 +972,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 76.2) (xy 134.62 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa7d8343-ab9c-421b-9347-e3309bb0b59a")
+	)
+	(wire
+		(pts
 			(xy 123.19 55.88) (xy 113.03 55.88)
 		)
 		(stroke
@@ -968,6 +1029,26 @@
 			(type default)
 		)
 		(uuid "bf371f0a-b0b6-4ea4-8bea-a351c4bef118")
+	)
+	(bus
+		(pts
+			(xy 142.24 82.55) (xy 142.24 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3de8abc-6a2f-4124-8541-8a515891c9e2")
+	)
+	(bus
+		(pts
+			(xy 142.24 83.82) (xy 153.67 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d47e09e9-7ee7-47c0-ac48-b8fdaaa59293")
 	)
 	(wire
 		(pts
@@ -1029,6 +1110,17 @@
 		)
 		(uuid "f88a08ad-4486-460c-b15b-734ef5bac0fa")
 	)
+	(text "Recommended Interrupt Pin Configuration for Velocity Tracking:\nUse the Data Ready Interrupt:\n\nPurpose: Trigger an interrupt each time new acceleration data is available. This ensures your system can collect data at the sensor's Output Data Rate (ODR).\nAction: Configure the DATA_READY interrupt and map it to one of the pins (INT1 or INT2).\nReason: This minimizes latency and ensures synchronization between the sensor and your microcontroller for real-time velocity computation.\n\n\n\nOptional: Use FIFO Watermark Interrupt:\n\nPurpose: If you want to reduce the number of interactions with the sensor, you can use the FIFO. Configure a watermark interrupt to trigger when the FIFO is partially full (e.g., every 64 samples).\nAction: Map the FIFO_WATERMARK interrupt to the second interrupt pin (INT2).\nReason: This approach helps reduce the burden on your microcontroller, which can process data in batches instead of continuously reading acceleration values."
+		(exclude_from_sim no)
+		(at 13.716 28.956 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2626ee28-ace1-409e-bc3a-8dd86d024508")
+	)
 	(label "{SPI}"
 		(at 80.01 68.58 0)
 		(fields_autoplaced yes)
@@ -1042,6 +1134,7 @@
 	)
 	(label "MOSI"
 		(at 96.52 76.2 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1050,8 +1143,40 @@
 		)
 		(uuid "46866cfa-1ae8-465c-b2f6-f8895b32e0e0")
 	)
+	(label "{INT}"
+		(at 142.24 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "643bbee1-450a-4c43-ad1f-af0d5fa74ac2")
+	)
+	(label "INT_2"
+		(at 134.62 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad715f2f-1a31-406b-bd12-d8720527e60a")
+	)
+	(label "INT_1"
+		(at 134.62 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "afb66178-5d73-4876-be92-48a119057272")
+	)
 	(label "~{CS}"
 		(at 96.52 81.28 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1062,6 +1187,7 @@
 	)
 	(label "MISO"
 		(at 96.52 78.74 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1072,6 +1198,7 @@
 	)
 	(label "SCLK"
 		(at 96.52 73.66 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1079,6 +1206,18 @@
 			(justify left bottom)
 		)
 		(uuid "da65b878-5580-4f4d-9fa2-7dcf3dc05357")
+	)
+	(hierarchical_label "INT"
+		(shape output)
+		(at 153.67 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bfc3bbb1-348d-4256-921c-33f48af34258")
 	)
 	(hierarchical_label "SPI"
 		(shape bidirectional)

@@ -56,6 +56,7 @@
 	)
 	(label "SCLK"
 		(at 74.93 62.23 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -63,6 +64,18 @@
 			(justify left bottom)
 		)
 		(uuid "57340c72-0916-4010-840f-abfde630ec1b")
+	)
+	(hierarchical_label "INT"
+		(shape input)
+		(at 48.26 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "60df4781-c77a-4719-88e8-55d0cc51511e")
 	)
 	(hierarchical_label "SPI"
 		(shape bidirectional)

@@ -15,6 +15,16 @@
 		)
 		(uuid "14efde8a-4eb8-40ca-a6ec-0a8e8a8cf1b7")
 	)
+	(wire
+		(pts
+			(xy 110.49 63.5) (xy 133.35 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f451c332-6d90-46e6-a7eb-c783f40e4892")
+	)
 	(sheet
 		(at 73.66 46.99)
 		(size 36.83 35.56)
@@ -54,6 +64,16 @@
 				(justify right)
 			)
 			(uuid "5332d7d0-cebd-42f1-a3d2-a75281fda6a1")
+		)
+		(pin "INT" output
+			(at 110.49 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2de82f03-4b51-4d55-83ec-b369a5ce2a55")
 		)
 		(instances
 			(project "ExpansionBoard"
@@ -102,6 +122,16 @@
 				(justify left)
 			)
 			(uuid "bd1b8c65-56e7-4bc3-8136-1a2f770e66dd")
+		)
+		(pin "INT" input
+			(at 133.35 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bfb1acde-966c-42d8-9e9e-e0f62c55b89d")
 		)
 		(instances
 			(project "ExpansionBoard"
