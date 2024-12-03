@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP TPS7B8633QDDARQ1
+D LDO Voltage Regulators Automotive 500-mA, 40-V, ultra-low-IQ, low-dropout (LDO) linear regulator with power good 8-SO PowerPAD -40 to 150
+K
+F https://www.ti.com/lit/gpn/tps7b86-q1
+$ENDCMP
+#
+#End Doc Library

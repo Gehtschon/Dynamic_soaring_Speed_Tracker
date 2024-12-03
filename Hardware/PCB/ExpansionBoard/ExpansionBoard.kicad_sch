@@ -26,6 +26,44 @@
 		(uuid "f451c332-6d90-46e6-a7eb-c783f40e4892")
 	)
 	(sheet
+		(at 71.12 99.06)
+		(size 34.29 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "543fedc8-8e40-46c9-a18c-68a6ffedc4b3")
+		(property "Sheetname" "Power Sheet"
+			(at 71.12 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 71.12 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ExpansionBoard"
+				(path "/fb49e4b5-d7b7-45bf-8a57-314a3950416b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 73.66 46.99)
 		(size 36.83 35.56)
 		(fields_autoplaced yes)
