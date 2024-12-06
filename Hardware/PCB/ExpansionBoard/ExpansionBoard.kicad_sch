@@ -26,6 +26,44 @@
 		(uuid "f451c332-6d90-46e6-a7eb-c783f40e4892")
 	)
 	(sheet
+		(at 133.35 100.33)
+		(size 39.37 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "08f5dced-60fb-4dd9-af91-2ce43fe77706")
+		(property "Sheetname" "UART_USB Sheet"
+			(at 133.35 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "UART_USB.kicad_sch"
+			(at 133.35 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ExpansionBoard"
+				(path "/fb49e4b5-d7b7-45bf-8a57-314a3950416b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 71.12 99.06)
 		(size 34.29 27.94)
 		(fields_autoplaced yes)

@@ -409,6 +409,10 @@
     [
       "543fedc8-8e40-46c9-a18c-68a6ffedc4b3",
       "Power Sheet"
+    ],
+    [
+      "08f5dced-60fb-4dd9-af91-2ce43fe77706",
+      "UART_USB Sheet"
     ]
   ],
   "text_variables": {}

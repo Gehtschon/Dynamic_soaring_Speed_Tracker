@@ -12,4 +12,16 @@ K
 F https://www.ti.com/lit/gpn/tps7b86-q1
 $ENDCMP
 #
+$CMP STM32L452RET6
+D ARM Microcontrollers - MCU 16/32-BITS MICROS
+K
+F https://componentsearchengine.com/Datasheets/1/STM32L452RET6.pdf
+$ENDCMP
+#
+$CMP STM32L412CBU6
+D STMICROELECTRONICS - STM32L412CBU6 - MCU, 32BIT, 80MHZ, QFN-48
+K
+F https://www.st.com/content/st_com/en/products/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus/stm32-ultra-low-power-mcus/stm32l4-series/stm32l4x2/stm32l412cb.html
+$ENDCMP
+#
 #End Doc Library
