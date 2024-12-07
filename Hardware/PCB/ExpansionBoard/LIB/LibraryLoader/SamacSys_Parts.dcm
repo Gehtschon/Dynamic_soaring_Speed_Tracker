@@ -24,4 +24,10 @@ K
 F https://www.st.com/content/st_com/en/products/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus/stm32-ultra-low-power-mcus/stm32l4-series/stm32l4x2/stm32l412cb.html
 $ENDCMP
 #
+$CMP MP62550DJ-LF-Z
+D Power Switch ICs - Power Distribution 1Ch .06-1.7A Current Limit Power Switch
+K
+F https://www.monolithicpower.com/pub/media/document/MP62550_MP62551_r1.21.pdf
+$ENDCMP
+#
 #End Doc Library

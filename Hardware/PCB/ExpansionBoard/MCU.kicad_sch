@@ -3941,6 +3941,7 @@
 	)
 	(label "MCU_RX"
 		(at 120.65 44.45 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3951,6 +3952,7 @@
 	)
 	(label "INT_2"
 		(at 161.29 132.08 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3983,6 +3985,7 @@
 	)
 	(label "INT_1"
 		(at 161.29 134.62 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4015,6 +4018,7 @@
 	)
 	(label "MOSI"
 		(at 123.19 156.21 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4058,6 +4062,7 @@
 	)
 	(label "MISO"
 		(at 120.65 156.21 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4068,6 +4073,7 @@
 	)
 	(label "MCU_TX"
 		(at 123.19 38.1 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4089,6 +4095,7 @@
 	)
 	(label "SCLK"
 		(at 82.55 130.81 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4099,6 +4106,7 @@
 	)
 	(label "MCU_CTS"
 		(at 161.29 106.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4109,6 +4117,7 @@
 	)
 	(label "MCU_RTS"
 		(at 161.29 104.14 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4130,6 +4139,7 @@
 	)
 	(label "~{CS}"
 		(at 115.57 153.67 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
