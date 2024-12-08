@@ -5,17 +5,17 @@
 	(uuid "fb49e4b5-d7b7-45bf-8a57-314a3950416b")
 	(paper "A4")
 	(lib_symbols)
-	(wire
+	(bus
 		(pts
-			(xy 110.49 54.61) (xy 133.35 54.61)
+			(xy 160.02 83.82) (xy 160.02 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "14efde8a-4eb8-40ca-a6ec-0a8e8a8cf1b7")
+		(uuid "039a30e3-84a0-4561-bed7-0d85591720a7")
 	)
-	(wire
+	(bus
 		(pts
 			(xy 110.49 63.5) (xy 133.35 63.5)
 		)
@@ -23,7 +23,17 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f451c332-6d90-46e6-a7eb-c783f40e4892")
+		(uuid "5890d983-ec93-4066-aa65-9d52f6748e0c")
+	)
+	(bus
+		(pts
+			(xy 110.49 54.61) (xy 133.35 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec4221b5-5d91-459a-bfa1-0409fec6fd47")
 	)
 	(sheet
 		(at 133.35 100.33)
@@ -55,6 +65,16 @@
 				(justify left top)
 			)
 		)
+		(pin "{UART}" bidirectional
+			(at 160.02 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9caeab85-ef52-4d7b-bbcd-b41d2c62378d")
+		)
 		(instances
 			(project "ExpansionBoard"
 				(path "/fb49e4b5-d7b7-45bf-8a57-314a3950416b"
@@ -64,8 +84,8 @@
 		)
 	)
 	(sheet
-		(at 71.12 99.06)
-		(size 34.29 27.94)
+		(at 72.39 99.06)
+		(size 40.64 33.02)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -76,7 +96,7 @@
 		)
 		(uuid "543fedc8-8e40-46c9-a18c-68a6ffedc4b3")
 		(property "Sheetname" "Power Sheet"
-			(at 71.12 98.3484 0)
+			(at 72.39 98.3484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85,7 +105,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 71.12 127.5846 0)
+			(at 72.39 132.6646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -131,7 +151,7 @@
 				(justify left top)
 			)
 		)
-		(pin "SPI" bidirectional
+		(pin "{SPI}" bidirectional
 			(at 110.49 54.61 0)
 			(effects
 				(font
@@ -141,7 +161,7 @@
 			)
 			(uuid "5332d7d0-cebd-42f1-a3d2-a75281fda6a1")
 		)
-		(pin "INT" output
+		(pin "{INT}" output
 			(at 110.49 63.5 0)
 			(effects
 				(font
@@ -189,7 +209,7 @@
 				(justify left top)
 			)
 		)
-		(pin "SPI" bidirectional
+		(pin "{SPI}" bidirectional
 			(at 133.35 54.61 180)
 			(effects
 				(font
@@ -199,7 +219,7 @@
 			)
 			(uuid "bd1b8c65-56e7-4bc3-8136-1a2f770e66dd")
 		)
-		(pin "INT" input
+		(pin "{INT}" input
 			(at 133.35 63.5 180)
 			(effects
 				(font
@@ -208,6 +228,16 @@
 				(justify left)
 			)
 			(uuid "bfb1acde-966c-42d8-9e9e-e0f62c55b89d")
+		)
+		(pin "{UART}" bidirectional
+			(at 160.02 83.82 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ced84f22-35f5-47bd-8b56-88e21cf06d91")
 		)
 		(instances
 			(project "ExpansionBoard"

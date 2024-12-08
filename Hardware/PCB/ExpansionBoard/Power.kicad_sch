@@ -1633,6 +1633,12 @@
 		(uuid "18834b02-a662-4030-952d-8b35172a7cee")
 	)
 	(junction
+		(at 172.72 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "206cafce-d753-4070-889e-5d22226b8753")
+	)
+	(junction
 		(at 121.92 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1842,7 +1848,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 91.44) (xy 181.61 91.44)
+			(xy 161.29 91.44) (xy 172.72 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2132,6 +2138,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 91.44) (xy 181.61 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb62c3f2-1ac4-4f4e-8f13-f56b711ed8e6")
+	)
+	(wire
+		(pts
 			(xy 121.92 97.79) (xy 121.92 100.33)
 		)
 		(stroke
@@ -2199,6 +2215,20 @@
 			(type default)
 		)
 		(uuid "fba97e8d-ce5d-4154-959d-277f63a5f905")
+	)
+	(label "POWER LED MISSING"
+		(at 186.69 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "07189ea9-cc4a-4752-9521-d028ab89df7e")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3102,6 +3132,72 @@
 			(project "ExpansionBoard"
 				(path "/fb49e4b5-d7b7-45bf-8a57-314a3950416b/543fedc8-8e40-46c9-a18c-68a6ffedc4b3"
 					(reference "#PWR0411")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 172.72 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60b74f32-60f5-454d-b1ab-c1071086a43e")
+		(property "Reference" "#FLG0402"
+			(at 172.72 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 172.72 87.3069 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 172.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbe8cff3-03ef-412f-8c9f-55737db2220e")
+		)
+		(instances
+			(project "ExpansionBoard"
+				(path "/fb49e4b5-d7b7-45bf-8a57-314a3950416b/543fedc8-8e40-46c9-a18c-68a6ffedc4b3"
+					(reference "#FLG0402")
 					(unit 1)
 				)
 			)
