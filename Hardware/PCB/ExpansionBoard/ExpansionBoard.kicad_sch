@@ -122,6 +122,44 @@
 		)
 	)
 	(sheet
+		(at 187.96 46.99)
+		(size 40.64 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6386c821-f857-4390-84d6-cb979b42e0d4")
+		(property "Sheetname" "Airspeed Sheet"
+			(at 187.96 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Airspeed.kicad_sch"
+			(at 187.96 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ExpansionBoard"
+				(path "/fb49e4b5-d7b7-45bf-8a57-314a3950416b"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 73.66 46.99)
 		(size 36.83 35.56)
 		(fields_autoplaced yes)

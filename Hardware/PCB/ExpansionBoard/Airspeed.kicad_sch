@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "11bf6831-5a85-4751-a232-7f94a637bd3b")
+	(paper "A4")
+	(lib_symbols)
+	(text "q = (1/2)*p*v^2\n\nq Dynamic Pressure Pa\np Air density (kg/m^3)\nv Airspeed (m/s)"
+		(exclude_from_sim no)
+		(at 33.02 26.162 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+		)
+		(uuid "78135456-b910-49cc-981d-72efb65a7970")
+	)
+)
