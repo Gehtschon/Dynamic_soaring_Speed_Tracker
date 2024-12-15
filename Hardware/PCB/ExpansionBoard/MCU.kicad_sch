@@ -4852,7 +4852,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 231.14 35.56 0)
 			(effects
 				(font
@@ -5183,7 +5183,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 231.14 38.1 0)
 			(effects
 				(font
@@ -5943,7 +5943,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFP50P1200X1200X160-64N"
+		(property "Footprint" "SamacSys_Parts:QFP50P1200X1200X160-64N"
 			(at 157.48 162.23 0)
 			(effects
 				(font
@@ -6313,7 +6313,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 231.14 30.48 0)
 			(effects
 				(font
@@ -6377,7 +6377,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 231.14 25.4 0)
 			(effects
 				(font
@@ -6508,7 +6508,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 231.14 27.94 0)
 			(effects
 				(font
@@ -6572,7 +6572,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 231.14 33.02 0)
 			(effects
 				(font
