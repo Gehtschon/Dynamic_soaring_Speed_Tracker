@@ -52,14 +52,6 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "ki_keywords" "CMOS"
 			(at 0 0 0)
 			(effects
@@ -170,9 +162,9 @@
 				)
 			)
 			(pin no_connect line
-				(at 6.35 -17.78 90)
-				(length 5.08)
-				(name "NC"
+				(at 6.35 -12.7 90)
+				(length 5.08) hide
+				(name "NC1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -188,9 +180,9 @@
 				)
 			)
 			(pin no_connect line
-				(at 6.35 -17.78 90)
+				(at 6.35 -12.7 90)
 				(length 5.08) hide
-				(name "NC"
+				(name "NC2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -206,9 +198,9 @@
 				)
 			)
 			(pin no_connect line
-				(at 6.35 -17.78 90)
+				(at 6.35 -12.7 90)
 				(length 5.08) hide
-				(name "NC"
+				(name "NC3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -228,32 +220,6 @@
 			(rectangle
 				(start 0 0)
 				(end 12.7 -12.7)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(symbol "4525DO-DS5AI015DP_2_1"
-			(rectangle
-				(start -15.24 2.54)
-				(end 0 -10.16)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(symbol "4525DO-DS5AI015DP_3_1"
-			(rectangle
-				(start -12.7 5.08)
-				(end -2.54 -10.16)
 				(stroke
 					(width 0.254)
 					(type default)

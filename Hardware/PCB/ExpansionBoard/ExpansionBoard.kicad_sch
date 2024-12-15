@@ -17,6 +17,16 @@
 	)
 	(bus
 		(pts
+			(xy 171.45 54.61) (xy 187.96 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d82213c-8e8b-4d29-a85b-c4150f7583ce")
+	)
+	(bus
+		(pts
 			(xy 110.49 63.5) (xy 133.35 63.5)
 		)
 		(stroke
@@ -151,6 +161,16 @@
 				(justify left top)
 			)
 		)
+		(pin "{Airspeed_I2C}" bidirectional
+			(at 187.96 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9a088acb-9c1b-4afc-9281-b777923b8e4e")
+		)
 		(instances
 			(project "ExpansionBoard"
 				(path "/fb49e4b5-d7b7-45bf-8a57-314a3950416b"
@@ -276,6 +296,16 @@
 				(justify left)
 			)
 			(uuid "ced84f22-35f5-47bd-8b56-88e21cf06d91")
+		)
+		(pin "{Airspeed_I2C}" bidirectional
+			(at 171.45 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "932789a4-9396-48b6-9710-c467c1deb8f5")
 		)
 		(instances
 			(project "ExpansionBoard"

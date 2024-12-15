@@ -1122,7 +1122,7 @@
 		(uuid "2626ee28-ace1-409e-bc3a-8dd86d024508")
 	)
 	(label "MOSI"
-		(at 109.22 76.2 0)
+		(at 100.33 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1133,7 +1133,7 @@
 		(uuid "03f6be3f-8a15-40ab-90e8-9253d7a28c49")
 	)
 	(label "MISO"
-		(at 109.22 78.74 0)
+		(at 100.33 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1144,7 +1144,7 @@
 		(uuid "22becc9f-ffd9-4730-bd77-a44504b922cd")
 	)
 	(label "~{CS}"
-		(at 109.22 81.28 0)
+		(at 100.33 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1259,7 +1259,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "DynamicSoaring:ADXL372BCCZ-RL7"
 			(at 91.694 59.182 0)
 			(effects
 				(font
@@ -1634,7 +1634,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 105.41 59.69 0)
 			(effects
 				(font
@@ -1703,7 +1703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 113.03 59.69 0)
 			(effects
 				(font

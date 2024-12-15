@@ -30,4 +30,28 @@ K
 F https://www.monolithicpower.com/pub/media/document/MP62550_MP62551_r1.21.pdf
 $ENDCMP
 #
+$CMP LSM115JE3_TR13
+D Schottky Diodes & Rectifiers Schottky
+K
+F https://media.digikey.com/pdf/Data%20Sheets/Microsemi%20PDFs/LSM115J.pdf
+$ENDCMP
+#
+$CMP SMLMN2BCTT86C
+D Blue 470nm LED Indication - Discrete 2.9V 0805 (2012 Metric)
+K
+F https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/smlmn2bctt86(c)-e.pdf
+$ENDCMP
+#
+$CMP 2173157-3
+D Body Features: Shell Plating Material Tin over Nickel | Connector Profile Micro | Shell Plating Finish Matte | Offset .8 MM | Configuration Features: Number of Positions 5 | Number of Ports 1 | Contact Features: Contact Mating Area Plating Material Thickness .76 MICM | Contact Mating Area Plating Material Gold | Contact Mating Area Plating Material Thickness 29.52 MICIN | Contact Current Rating (Max) 1.8 AMP | Dimensions: PCB Thickness (Recommended) .8  1. MM | PCB Thickness (Recommended) .031  .039 I
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F2173157%7FA1%7Fpdf%7FEnglish%7FENG_CD_2173157_A1_2173157-C_revA1.pdf%7F2173157-3
+$ENDCMP
+#
+$CMP 150080VS75000
+D Wurth Elektronik WL-SMCW 570 nm Green LED, 2012 (0805) Clear SMD package
+K
+F http://katalog.we-online.com/led/datasheet/150080VS75000.pdf
+$ENDCMP
+#
 #End Doc Library
