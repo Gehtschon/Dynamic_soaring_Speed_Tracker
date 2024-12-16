@@ -54,4 +54,22 @@ K
 F http://katalog.we-online.com/led/datasheet/150080VS75000.pdf
 $ENDCMP
 #
+$CMP TM1000Q
+D OTHER, Through Hole
+K
+F https://configured-product-images.s3.amazonaws.com/2D/specs/TM1000Q.pdf
+$ENDCMP
+#
+$CMP 1010040575#
+D 1010040575#-SD P/P CARD STD OFF 1.8MM Coneector
+K
+F https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_micro_sdcard.pdf
+$ENDCMP
+#
+$CMP MEM2061-01-188-00-A
+D MEM2061 Series 8 Position 1.1 mm Pitch Push-Push MicroSD SMT Memory Card Connector
+K
+F https://gct.co/files/drawings/mem2061.pdf?v=db251ddb-1946-4f24-aa19-b8a17901bdd2
+$ENDCMP
+#
 #End Doc Library

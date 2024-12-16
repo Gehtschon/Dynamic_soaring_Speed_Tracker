@@ -25,6 +25,16 @@
 		)
 		(uuid "0d82213c-8e8b-4d29-a85b-c4150f7583ce")
 	)
+	(wire
+		(pts
+			(xy 110.49 69.85) (xy 133.35 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1661aadc-1388-4cc3-9097-c555e40ae446")
+	)
 	(bus
 		(pts
 			(xy 110.49 63.5) (xy 133.35 63.5)
@@ -44,6 +54,16 @@
 			(type default)
 		)
 		(uuid "ec4221b5-5d91-459a-bfa1-0409fec6fd47")
+	)
+	(wire
+		(pts
+			(xy 110.49 72.39) (xy 133.35 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edd60ccc-4638-483b-96a4-8fc8ebbeb755")
 	)
 	(sheet
 		(at 133.35 100.33)
@@ -229,6 +249,26 @@
 			)
 			(uuid "2de82f03-4b51-4d55-83ec-b369a5ce2a55")
 		)
+		(pin "Angle_Indicator_1" output
+			(at 110.49 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0732b635-3ba0-4ccb-b27d-3dd0c48035d1")
+		)
+		(pin "Angle_Indicator_2" output
+			(at 110.49 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "781fd2b8-ab3b-49d2-9e64-6c3372200f48")
+		)
 		(instances
 			(project "ExpansionBoard"
 				(path "/fb49e4b5-d7b7-45bf-8a57-314a3950416b"
@@ -306,6 +346,26 @@
 				(justify right)
 			)
 			(uuid "932789a4-9396-48b6-9710-c467c1deb8f5")
+		)
+		(pin "Angle_Indicator_2" input
+			(at 133.35 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "eb292ffa-a6cc-4395-8535-1df83e5132ee")
+		)
+		(pin "Angle_Indicator_1" input
+			(at 133.35 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2856c1a7-647e-456c-a251-4782c2287cd1")
 		)
 		(instances
 			(project "ExpansionBoard"

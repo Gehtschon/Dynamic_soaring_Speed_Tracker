@@ -509,6 +509,175 @@
 				)
 			)
 		)
+		(symbol "SamacSys_Parts:TM1000Q"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TM1000Q"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "TM1000Q"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/TM1000Q.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "OTHER, Through Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "6.5"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "612-TM1000Q"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/TM1000Q?qs=Ep9Lwju7gVpbouQGFwc5JA%3D%3D"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "E-Switch"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TM1000Q"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "TM1000Q_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "NO_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "NO_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -733,10 +902,28 @@
 		(members "SCLK" "MOSI" "MISO" "~{CS}")
 	)
 	(junction
+		(at 101.6 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03b01f10-6fd2-4b2d-86e3-6289c547d184")
+	)
+	(junction
+		(at 104.14 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fb82b2d-73da-4f5a-b643-513a55338f8e")
+	)
+	(junction
 		(at 105.41 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2cc94091-98b9-4c36-a466-8d5f40023d1d")
+	)
+	(junction
+		(at 99.06 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35a1ba7a-ca7c-44b9-82f2-df79a3c85be7")
 	)
 	(junction
 		(at 113.03 55.88)
@@ -812,6 +999,26 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 120.65) (xy 104.14 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12fe8807-9968-4fc2-9c5b-95e1250cacf9")
+	)
+	(wire
+		(pts
+			(xy 83.82 120.65) (xy 83.82 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16b2f6ea-d8b8-40eb-b19c-93853e136c67")
+	)
+	(wire
+		(pts
 			(xy 127 55.88) (xy 123.19 55.88)
 		)
 		(stroke
@@ -842,6 +1049,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 120.65) (xy 81.28 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "481054c0-cb4b-49a7-8773-a8533833a143")
+	)
+	(wire
+		(pts
 			(xy 113.03 63.5) (xy 113.03 62.23)
 		)
 		(stroke
@@ -859,6 +1076,16 @@
 			(type default)
 		)
 		(uuid "58f71c77-1520-4b65-b824-0837b1b5b0f1")
+	)
+	(wire
+		(pts
+			(xy 83.82 119.38) (xy 104.14 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b0f1810-290f-4658-8748-9d08e0654d61")
 	)
 	(wire
 		(pts
@@ -912,6 +1139,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 114.3) (xy 99.06 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "734a7c1a-0551-4a9e-836b-5b251318009f")
+	)
+	(wire
+		(pts
 			(xy 96.52 81.28) (xy 109.22 81.28)
 		)
 		(stroke
@@ -919,6 +1156,36 @@
 			(type default)
 		)
 		(uuid "790f1367-1eeb-43ff-ba9f-b93ae54532c4")
+	)
+	(wire
+		(pts
+			(xy 114.3 110.49) (xy 114.3 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79752ab9-5bae-4b7b-9c52-3df6bc1090fa")
+	)
+	(wire
+		(pts
+			(xy 104.14 119.38) (xy 121.92 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81d54af9-adf2-4f31-958a-ada6474f1dde")
+	)
+	(wire
+		(pts
+			(xy 81.28 116.84) (xy 101.6 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "870fd035-9f7f-4c3b-bb87-4ac039080e9c")
 	)
 	(wire
 		(pts
@@ -962,6 +1229,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 116.84) (xy 114.3 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a228c10d-7d77-44b2-9c74-db9557958837")
+	)
+	(wire
+		(pts
 			(xy 139.7 76.2) (xy 134.62 76.2)
 		)
 		(stroke
@@ -979,6 +1256,16 @@
 			(type default)
 		)
 		(uuid "b6066f11-9204-427c-82d3-89a86f1890da")
+	)
+	(wire
+		(pts
+			(xy 78.74 120.65) (xy 78.74 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7361314-8ea7-4ac2-8b65-db5c39daf96e")
 	)
 	(wire
 		(pts
@@ -1030,6 +1317,16 @@
 		)
 		(uuid "c55ec381-3712-4f2c-a046-e8a435e77b96")
 	)
+	(wire
+		(pts
+			(xy 78.74 114.3) (xy 99.06 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbc81515-fae7-4618-bdb8-2cbea62e476e")
+	)
 	(bus
 		(pts
 			(xy 93.98 68.58) (xy 93.98 71.12)
@@ -1039,6 +1336,16 @@
 			(type default)
 		)
 		(uuid "d1b28a8f-6337-42b2-90f6-10131528c5f5")
+	)
+	(wire
+		(pts
+			(xy 99.06 114.3) (xy 121.92 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3dd99cd-e45e-4157-b1ba-865ba4378c28")
 	)
 	(bus
 		(pts
@@ -1089,6 +1396,16 @@
 			(type default)
 		)
 		(uuid "e97ec107-5a60-43be-908b-3807dac026a4")
+	)
+	(wire
+		(pts
+			(xy 101.6 116.84) (xy 101.6 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efb9d37f-3219-40d4-9343-d7abb0247652")
 	)
 	(wire
 		(pts
@@ -1208,6 +1525,30 @@
 			(justify left bottom)
 		)
 		(uuid "afeed0d5-1879-4c32-9b66-d4f642d06589")
+	)
+	(hierarchical_label "Angle_Indicator_1"
+		(shape output)
+		(at 121.92 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1241b92e-718f-4b1d-a443-769d18368f91")
+	)
+	(hierarchical_label "Angle_Indicator_2"
+		(shape output)
+		(at 121.92 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37a890cd-2677-40da-8594-649e8df99915")
 	)
 	(hierarchical_label "{SPI}"
 		(shape bidirectional)
@@ -1536,6 +1877,322 @@
 			(project "ExpansionBoard"
 				(path "/fb49e4b5-d7b7-45bf-8a57-314a3950416b/85b5c51c-751a-48d0-aae0-5f2233899fe2"
 					(reference "#PWR0204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:TM1000Q")
+		(at 104.14 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "514e3f75-0e4d-474b-8f12-983e75b8acdd")
+		(property "Reference" "S201"
+			(at 107.442 130.8678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TM1000Q"
+			(at 107.442 133.2921 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:TM1000Q"
+			(at 9.22 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/TM1000Q.pdf"
+			(at -90.78 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "OTHER, Through Hole"
+			(at 104.14 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "6.5"
+			(at -290.78 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "612-TM1000Q"
+			(at -390.78 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/TM1000Q?qs=Ep9Lwju7gVpbouQGFwc5JA%3D%3D"
+			(at -490.78 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "E-Switch"
+			(at -590.78 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TM1000Q"
+			(at -690.78 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3750b308-911a-4304-bfca-cac6d6c4be8f")
+		)
+		(pin "3"
+			(uuid "1729f39b-9fe3-4c25-97b4-ca76bd944907")
+		)
+		(pin "2"
+			(uuid "95cd8796-000e-4635-86d6-f1c581dbfc22")
+		)
+		(instances
+			(project ""
+				(path "/fb49e4b5-d7b7-45bf-8a57-314a3950416b/85b5c51c-751a-48d0-aae0-5f2233899fe2"
+					(reference "S201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 114.3 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55d61064-bc21-4d67-9860-0bdefce70f5d")
+		(property "Reference" "#PWR0205"
+			(at 114.3 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 114.3 106.3569 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 114.3 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "595cfe91-eee4-40e4-9dcd-c73eca22087d")
+		)
+		(instances
+			(project "ExpansionBoard"
+				(path "/fb49e4b5-d7b7-45bf-8a57-314a3950416b/85b5c51c-751a-48d0-aae0-5f2233899fe2"
+					(reference "#PWR0205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:TM1000Q")
+		(at 83.82 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6355c2d5-ecc6-4ecc-8613-165912f316b4")
+		(property "Reference" "S202"
+			(at 87.122 130.8678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TM1000Q"
+			(at 87.122 133.2921 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:TM1000Q"
+			(at -11.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/TM1000Q.pdf"
+			(at -111.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "OTHER, Through Hole"
+			(at 83.82 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "6.5"
+			(at -311.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "612-TM1000Q"
+			(at -411.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/TM1000Q?qs=Ep9Lwju7gVpbouQGFwc5JA%3D%3D"
+			(at -511.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "E-Switch"
+			(at -611.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TM1000Q"
+			(at -711.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f07e4476-dbe4-493a-9f00-915abaf1c7b1")
+		)
+		(pin "3"
+			(uuid "a773ed38-8d0a-461d-8cf1-02fd93352f77")
+		)
+		(pin "2"
+			(uuid "ed798ec3-96b6-4293-89a9-64e56b4754c3")
+		)
+		(instances
+			(project "ExpansionBoard"
+				(path "/fb49e4b5-d7b7-45bf-8a57-314a3950416b/85b5c51c-751a-48d0-aae0-5f2233899fe2"
+					(reference "S202")
 					(unit 1)
 				)
 			)
