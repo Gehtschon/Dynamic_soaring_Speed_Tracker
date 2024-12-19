@@ -3043,7 +3043,7 @@
 		)
 	)
 	(bus_alias "SD_Card"
-		(members "NSS" "MOSI" "MISO" "CLK" "CardDetect")
+		(members "SD_NSS" "SD_MOSI" "SD_MISO" "SD_CLK" "CardDetect")
 	)
 	(bus_alias "UART"
 		(members "MCU_RX" "MCU_TX" "MCU_RTS" "MCU_CTS")
@@ -5090,8 +5090,9 @@
 		)
 		(uuid "0802a126-785d-45a3-a59b-ecba5c6cb986")
 	)
-	(label "MISO"
+	(label "SD_MISO"
 		(at 87.63 118.11 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5111,8 +5112,9 @@
 		)
 		(uuid "0f528a62-a382-4f0c-b582-4c87f0c954ef")
 	)
-	(label "MISO"
+	(label "SD_MISO"
 		(at 240.03 121.92 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5132,8 +5134,9 @@
 		)
 		(uuid "18c0c859-4abd-403f-86c7-260614cd1022")
 	)
-	(label "CLK"
+	(label "SD_CLK"
 		(at 138.43 160.02 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5164,8 +5167,9 @@
 		)
 		(uuid "1b38d1a5-b8fa-4586-bab3-bb0ebd195e65")
 	)
-	(label "CLK"
+	(label "SD_CLK"
 		(at 245.11 121.92 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5209,6 +5213,7 @@
 	)
 	(label "CardDetect"
 		(at 115.57 58.42 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5263,6 +5268,7 @@
 	)
 	(label "CardDetect"
 		(at 232.41 121.92 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5282,8 +5288,9 @@
 		)
 		(uuid "5269182a-4003-4f2a-b08d-f1f0db3ae369")
 	)
-	(label "MOSI"
+	(label "SD_MOSI"
 		(at 87.63 120.65 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5316,8 +5323,9 @@
 		)
 		(uuid "62cf2ebb-30b5-4955-b113-4a61f3efc6b3")
 	)
-	(label "NSS"
+	(label "SD_NSS"
 		(at 105.41 46.99 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5337,8 +5345,9 @@
 		)
 		(uuid "6b6b8739-b6e1-40ef-a074-6c5172f6fd99")
 	)
-	(label "MOSI"
+	(label "SD_MOSI"
 		(at 234.95 64.77 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5468,8 +5477,9 @@
 		)
 		(uuid "d941c79b-3b23-47b5-b3d7-579a968866d4")
 	)
-	(label "NSS"
+	(label "SD_NSS"
 		(at 237.49 64.77 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7426,7 +7436,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:QFP50P1200X1200X160-64N"
+		(property "Footprint" "QFP50P1200X1200X160-64N"
 			(at 157.48 162.23 0)
 			(effects
 				(font
@@ -8797,7 +8807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:MEM20610118800A"
+		(property "Footprint" "MEM20610118800A"
 			(at 150.19 107.95 0)
 			(effects
 				(font

@@ -72,4 +72,10 @@ K
 F https://gct.co/files/drawings/mem2061.pdf?v=db251ddb-1946-4f24-aa19-b8a17901bdd2
 $ENDCMP
 #
+$CMP ADXL372BCCZ-RL7
+D Micropower, 3-Axis, +/-200 g Digital Output, MEMS
+K
+F https://www.analog.com/ADXL372/datasheet
+$ENDCMP
+#
 #End Doc Library
