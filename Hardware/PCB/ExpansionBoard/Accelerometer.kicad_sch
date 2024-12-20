@@ -1910,7 +1910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TM1000Q"
+		(property "Footprint" "SamacSys_Parts:TM1000Q"
 			(at 9.22 139.7 0)
 			(effects
 				(font
@@ -2101,7 +2101,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TM1000Q"
+		(property "Footprint" "SamacSys_Parts:TM1000Q"
 			(at -11.1 139.7 0)
 			(effects
 				(font

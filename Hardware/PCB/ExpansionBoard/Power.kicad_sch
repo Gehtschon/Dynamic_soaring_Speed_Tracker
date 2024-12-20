@@ -3193,7 +3193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X170-9N"
+		(property "Footprint" "SamacSys_Parts:SOIC127P600X170-9N"
 			(at 130.81 -3.48 0)
 			(effects
 				(font
@@ -4821,7 +4821,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X100-6N"
+		(property "Footprint" "SamacSys_Parts:SOT95P280X100-6N"
 			(at 104.14 213.03 0)
 			(effects
 				(font
@@ -5365,7 +5365,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DIOM5436X330N"
+		(property "Footprint" "SamacSys_Parts:DIOM5436X330N"
 			(at 72.39 -2.21 0)
 			(effects
 				(font

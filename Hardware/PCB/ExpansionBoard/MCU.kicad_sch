@@ -7436,7 +7436,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFP50P1200X1200X160-64N"
+		(property "Footprint" "SamacSys_Parts:QFP50P1200X1200X160-64N"
 			(at 157.48 162.23 0)
 			(effects
 				(font
@@ -8807,7 +8807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MEM20610118800A"
+		(property "Footprint" "SamacSys_Parts:MEM20610118800A"
 			(at 150.19 107.95 0)
 			(effects
 				(font

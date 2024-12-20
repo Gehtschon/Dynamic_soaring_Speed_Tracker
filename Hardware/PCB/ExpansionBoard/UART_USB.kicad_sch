@@ -4996,7 +4996,7 @@
 				)
 			)
 		)
-		(property "Footprint" "21731573"
+		(property "Footprint" "SamacSys_Parts:21731573"
 			(at 55.88 158.42 0)
 			(effects
 				(font
